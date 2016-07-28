@@ -4,5 +4,5 @@ def sum_multiples
   (1...1000).each do |n|
     total_sum += n if (n % 3 == 0) || (n % 5 == 0)
   end
-  puts "The sum of all multiples of 3 or 5 below 1000 is #{total_sum}"
+  puts "Sum of multiples of 3 or 5 below 1000 is #{total_sum}" # Output: 233168
 end

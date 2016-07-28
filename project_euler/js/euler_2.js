@@ -12,5 +12,5 @@ function fibonacci() {
       sum += x;
     }
   } while (x < 4000000);
-  return sum;
+  return sum; // Output: 4613732
 }

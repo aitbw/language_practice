@@ -7,5 +7,5 @@ function sumMultiples() {
       totalSum += i;
     }
   }
-  return totalSum;
+  return totalSum; // Output: 233168
 }

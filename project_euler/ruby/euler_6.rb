@@ -12,5 +12,5 @@ def sum_square_difference
   end
   square_sum **= 2
 
-  puts "The difference is #{square_sum - sum_square}"
+  puts "The difference is #{square_sum - sum_square}" # Output: 25164150
 end

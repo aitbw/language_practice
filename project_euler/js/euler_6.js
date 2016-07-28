@@ -11,5 +11,5 @@ function sumSquareDifference() {
     squareSum += j;
   }
   squareSum = Math.pow(squareSum, 2);
-  return squareSum - sumSquare;
+  return squareSum - sumSquare; // Output: 25164150
 }

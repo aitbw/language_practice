@@ -10,5 +10,5 @@ def fibonacci
     y = @temp + y
     total_sum += x if x.even?
   end
-  puts "The sum of all even values is #{total_sum}"
+  puts "The sum of all even values is #{total_sum}" # Output: 4613732
 end

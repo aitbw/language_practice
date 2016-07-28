@@ -8,5 +8,5 @@ def largest_palindrome
     palindromes.push(result) if result.to_s == result.to_s.reverse
   end
 
-  puts "The largest palindromic number is #{palindromes.max}"
+  puts "The largest palindromic number is #{palindromes.max}" # Output: 698896
 end
