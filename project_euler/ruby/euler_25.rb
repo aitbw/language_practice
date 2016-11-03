@@ -10,6 +10,7 @@ def thousand_digit_fibonacci
     y = @temp + y
     @numbers.push(x)
   end
+
   # With this approach, there's only 1 1000-digit number
   # in the array, so this should ouput 4781, but there's
   # probably a better way to do this.

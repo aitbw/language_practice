@@ -1,5 +1,5 @@
 # Problem #2: Even Fibonacci numbers
-def fibonacci
+def even_fibonacci_numbers
   x = 0
   y = 1
   total_sum = 0
@@ -10,5 +10,6 @@ def fibonacci
     y = @temp + y
     total_sum += x if x.even?
   end
-  puts "The sum of all even values is #{total_sum}" # Output: 4613732
+
+  puts "Sum of all even values is #{total_sum}" # Output: 4613732
 end
