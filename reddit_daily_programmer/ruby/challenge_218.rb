@@ -6,7 +6,7 @@ class ToDoList
   end
 
   def add_item
-    puts 'Enter your task: '
+    print 'Enter your task: '
     item = gets.chomp
     @items.push(item)
   end
@@ -18,7 +18,7 @@ class ToDoList
   end
 
   def delete_item
-    puts 'Enter the # of the task you want to delete: '
+    print 'Enter the # of the task you want to delete: '
     item = gets.to_i
     @items.delete_at(item)
     puts 'Item deleted'
